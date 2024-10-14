@@ -1,0 +1,2 @@
+details.csv filter=lfs diff=lfs merge=lfs -text
+https://drive.google.com/file/d/1EiauFqn2Q-LgYhObRof1-Mi3P5IEdTCG/view?usp=drive_link filter=lfs diff=lfs merge=lfs -text
