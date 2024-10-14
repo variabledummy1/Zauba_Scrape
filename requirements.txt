@@ -7,7 +7,7 @@ appdirs==1.4.4
 aspose-cells==24.6.0
 
 astunparse==1.6.3
-pyodbc==4.0.17
+pyodbc==5.1.0
 atomicwrites==1.4.0
 attrs==24.2.0
 
