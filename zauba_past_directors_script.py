@@ -78,6 +78,15 @@ import re
 # Define your database engine
 engine = create_engine('mssql+pyodbc://SAL_USER01:%s@172.16.22.25:1433/SAL_DB?driver=ODBC+Driver+17+for+SQL+Server' % quote('Sal@123'))
 
+
+# Test database connection
+try:
+    with engine.connect() as connection:
+        print("Connection successful!")
+except Exception as e:
+    print(f"Connection failed: {e}")
+    exit()  # Exit if the connection fails
+
 # Log errors to a text file
 def log_error(error_message):
     with open('error_log.txt', 'a') as f:
